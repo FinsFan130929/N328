@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<meta charset="UTF-8">
+		<title>Top 10 Twitch Streamers Stats</title>
+		<style>
+rect {
+	fill: #7400b8;
+			}
+.header {
+	padding: 60px;
+  	text-align: center;
+ 	background: #7400b8;
+ 	color: white;
+  	font-size: 30px;
+}
+  .bar {
+    fill: #a9a9a9;
+    opacity: 0.6;
+  }
+	.bar:hover {
+    fill: #7400b8;
+    opacity: 1;
+}
+
+.infoblank {
+	width: 220px;
+	height: 525px;
+	color: white;
+}
+
+.charts {
+	display: none;
+}
+.charts:target {
+	display: table;
+}
+
+.chartsF {
+	display: table;
+}
+
+.PUBG {
+	color:goldenrod;
+}
+
+.LoL {
+	color:royalblue;
+}
+
+.FN {
+	color: orange;
+}
+
+.GTA {
+	color: green;
+}
+
+.MC {
+	color: brown;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Display the modal when targeted */
+.modal:target {
+  display: table;
+  position: absolute;
+}
+
+/* The modal box */
+.modal-dialog {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* The modal's content */
+.modal-dialog .modal-content {
+  margin: auto;
+  background-color: #f3f3f3;
+  position: relative;
+  padding: 0;
+  outline: 0;
+  border: 1px #777 solid;
+  text-align: center;
+  width: 80%;
+}
+
+.closebtn {
+  text-decoration: none;
+  float: right;
+  font-size: 35px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.closebtn:hover,
+.closebtn:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.container {
+  padding: 2px 16px;
+  font-size: 25px;
+}
+
+header {
+  background-color: #7400b8;
+  font-size: 25px;
+  color: white;
+}
+
+footer {
+  background-color: #7400b8;
+  font-size: 20px;
+  color: white;
+}
+
+</style>
+</head>
+<body>
+<div id="id10" class="modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <header class="container">
+        <a href="#" class="closebtn">×</a>
+        <h2>Dr.Disrespect</h2>
+      </header>
+      <div class="container">
+		<p>Followers: 4450718</p>
+        <p>Watch Time: 1839882465 Minutes</p>
+		<p>Stream Time: 73065 Minutes</p>
+		<p>Peak Viewers: 97540</p>
+		<p>Average Viwers: 23794</p>
+		<p>Mature: False</p>
+		<p class="PUBG">Main Game: PUBG</p>
+      </div>
+      <footer class="container">
+        <p>Rank: #10</p>
+      </footer>
+    </div>
+  </div>
+</div>
+
+<div id="id09" class="modal">
+	<div class="modal-dialog">
+	  <div class="modal-content">
+		<header class="container">
+		  <a href="#" class="closebtn">×</a>
+		  <h2>Riot Games</h2>
+		</header>
+		<div class="container">
+		  <p>Followers: 4487489</p>
+		  <p>Watch Time: 2674646715 Minutes</p>
+		  <p>Stream Time: 80820 Minutes</p>
+		  <p>Peak Viewers: 639375</p>
+		  <p>Average Viwers: 20960</p>
+		  <p>Mature: False</p>
+		  <p class="LoL">Main Game: LoL</p>
+		</div>
+		<footer class="container">
+		  <p>Rank: #9</p>
+		</footer>
+	  </div>
+	</div>
+  </div>
+
+  <div id="id08" class="modal">
+	<div class="modal-dialog">
+	  <div class="modal-content">
+		<header class="container">
+		  <a href="#" class="closebtn">×</a>
+		  <h2>dakotaz</h2>
+		</header>
+		<div class="container">
+		  <p>Followers: 4520305</p>
+		  <p>Watch Time: 978947160 Minutes</p>
+		  <p>Stream Time: 132615 Minutes</p>
+		  <p>Peak Viewers: 43397</p>
+		  <p>Average Viwers: 7112</p>
+		  <p>Mature: False</p>
+		  <p class="FN">Main Game: Fortnite</p>
+		</div>
+		<footer class="container">
+		  <p>Rank: #8</p>
+		</footer>
+	  </div>
+	</div>
+  </div>
+
+  <div id="id07" class="modal">
+	<div class="modal-dialog">
+	  <div class="modal-content">
+		<header class="container">
+		  <a href="#" class="closebtn">×</a>
+		  <h2>TimTheTatman</h2>
+		</header>
+		<div class="container">
+		  <p>Followers: 5265659</p>
+		  <p>Watch Time: 2834436990 Minutes</p>
+		  <p>Stream Time: 108780 Minutes</p>
+		  <p>Peak Viewers: 142067</p>
+		  <p>Average Viwers: 25664</p>
+		  <p>Mature: True</p>
+		  <p class="FN">Main Game: Fortnite</p>
+		</div>
+		<footer class="container">
+		  <p>Rank: #7</p>
+		</footer>
+	  </div>
+	</div>
+  </div>
+  
+  <div id="id06" class="modal">
+	<div class="modal-dialog">
+	  <div class="modal-content">
+		<header class="container">
+		  <a href="#" class="closebtn">×</a>
+		  <h2>summit1g</h2>
+		</header>
+		<div class="container">
+		  <p>Followers: 5310163</p>
+		  <p>Watch Time: 6091677300 Minutes</p>
+		  <p>Stream Time: 211845 Minutes</p>
+		  <p>Peak Viewers: 310998</p>
+		  <p>Average Viwers: 25610</p>
+		  <p>Mature: False</p>
+		  <p class="GTA">Main Game: GTA: V</p>
+		</div>
+		<footer class="container">
+		  <p>Rank: #6</p>
+		</footer>
+	  </div>
+	</div>
+  </div>
+
+  <div id="id05" class="modal">
+	<div class="modal-dialog">
+	  <div class="modal-content">
+		<header class="container">
+		  <a href="#" class="closebtn">×</a>
+		  <h2>pokimane</h2>
+		</header>
+		<div class="container">
+		  <p>Followers: 5367605</p>
+		  <p>Watch Time: 964334055 Minutes</p>
+		  <p>Stream Time: 56505 Minutes</p>
+		  <p>Peak Viewers: 112160</p>
+		  <p>Average Viwers: 16026</p>
+		  <p>Mature: False</p>
+		  <p class="LoL">Main Game: LoL</p>
+		</div>
+		<footer class="container">
+		  <p>Rank: #5</p>
+		</footer>
+	  </div>
+	</div>
+  </div>
+
+  <div id="id04" class="modal">
+	<div class="modal-dialog">
+	  <div class="modal-content">
+		<header class="container">
+		  <a href="#" class="closebtn">×</a>
+		  <h2>Rubius</h2>
+		</header>
+		<div class="container">
+		  <p>Followers: 5751354</p>
+		  <p>Watch Time: 2588632635 Minutes</p>
+		  <p>Stream Time: 58275 Minutes</p>
+		  <p>Peak Viewers: 240096</p>
+		  <p>Average Viwers: 42948</p>
+		  <p>Mature: False</p>
+		  <p class="MC">Main Game: Minecraft</p>
+		</div>
+		<footer class="container">
+		  <p>Rank: #4</p>
+		</footer>
+	  </div>
+	</div>
+  </div>
+
+  <div id="id03" class="modal">
+	<div class="modal-dialog">
+	  <div class="modal-content">
+		<header class="container">
+		  <a href="#" class="closebtn">×</a>
+		  <h2>Myth</h2>
+		</header>
+		<div class="container">
+		  <p>Followers: 6726893</p>
+		  <p>Watch Time: 1479214575 Minutes</p>
+		  <p>Stream Time: 134760 Minutes</p>
+		  <p>Peak Viewers: 122552</p>
+		  <p>Average Viwers: 9396</p>
+		  <p>Mature: False</p>
+		  <p class="FN">Main Game: Fortnite</p>
+		</div>
+		<footer class="container">
+		  <p>Rank: #3</p>
+		</footer>
+	  </div>
+	</div>
+  </div>
+
+  <div id="id02" class="modal">
+	<div class="modal-dialog">
+	  <div class="modal-content">
+		<header class="container">
+		  <a href="#" class="closebtn">×</a>
+		  <h2>Shroud</h2>
+		</header>
+		<div class="container">
+		  <p>Followers: 7744066</p>
+		  <p>Watch Time: 888505170 Minutes</p>
+		  <p>Stream Time: 30240 Minutes</p>
+		  <p>Peak Viewers: 471281</p>
+		  <p>Average Viwers: 29612</p>
+		  <p>Mature: False</p>
+		  <p class="PUBG">Main Game: PUBG</p>
+		</div>
+		<footer class="container">
+		  <p>Rank: #2</p>
+		</footer>
+	  </div>
+	</div>
+  </div>
+
+  <div id="id01" class="modal">
+	<div class="modal-dialog">
+	  <div class="modal-content">
+		<header class="container">
+		  <a href="#" class="closebtn">×</a>
+		  <h2>Tfue</h2>
+		</header>
+		<div class="container">
+		  <p>Followers: 8938903</p>
+		  <p>Watch Time: 3671000070 Minutes</p>
+		  <p>Stream Time: 123660 Minutes</p>
+		  <p>Peak Viewers: 285644</p>
+		  <p>Average Viwers: 29602</p>
+		  <p>Mature: False</p>
+		  <p class="FN">Main Game: Fortnite</p>
+		</div>
+		<footer class="container">
+		  <p>Rank: #1</p>
+		</footer>
+	  </div>
+	</div>
+  </div>
+
+<div class="header">
+  <h1 style ="font-family:verdana">Twitch Stats</h1>
+  <p style ="font-family:verdana">For the 10 Most Followed Streamers</p>
+</div>
+
+	<svg id="chartF" class= "chartsF" width ="2000" height="700">
+		<rect id="showData10" class="bar" x ="150" y="400" width="50" height="200"/>
+		<text x="125" y="625" font-family="Verdana" font-size="15" fill="black"><a href="#id10">Dr.Disrespect</a></text>
+		<rect id="showData9" class="bar" x ="300" y="390" width="50" height="210"/>
+		<text x="280" y="625" font-family="Verdana" font-size="15" fill="black"><a href="#id09">Riot Games</a></text>
+		<rect id="showData8" class="bar" x ="450" y="365" width="50" height="235"/>
+		<text x="445" y="625" font-family="Verdana" font-size="15" fill="black"><a href="#id08">dakotaz</a></text>
+		<rect id="showData7" class="bar" x ="600" y="310" width="50" height="290"/>
+		<text x="575" y="625" font-family="Verdana" font-size="15" fill="black"><a href="#id07">TimTheTatman</a></text>
+		<rect id="showData6" class="bar" x ="750" y="290" width="50" height="310"/>
+		<text x="735" y="625" font-family="Verdana" font-size="15" fill="black"><a href="#id06">summit1g</a></text>
+		<rect id="showData5" class="bar" x ="900" y="280" width="50" height="320"/>
+		<text x="885" y="625" font-family="Verdana" font-size="15" fill="black"><a href="#id05">pokimane</a></text>
+		<rect id="showData4" class="bar" x ="1050" y="240" width="50" height="360"/>
+		<text x="1049" y="625" font-family="Verdana" font-size="15" fill="black"><a href="#id04">Rubius</a></text>
+		<rect id="showData3" class="bar" x ="1200" y="170" width="50" height="430"/>
+		<text x="1205" y="625" font-family="Verdana" font-size="15" fill="black"><a href="#id03">Myth</a></text>
+		<rect id="showData2" class="bar" x ="1350" y="120" width="50" height="480"/>
+		<text x="1347" y="625" font-family="Verdana" font-size="15" fill="black"><a href="#id02">Shroud</a></text>
+		<rect id="showData" class="bar" x ="1500" y="80" width="50" height="520"/>
+		<text x="1506" y="625" font-family="Verdana" font-size="15" fill="black"><a href="#id01">Tfue</a></text>
+		<line x1="100" x2="1600" y1="605" y2="605" stroke="black"/>
+		<line x1="110" x2="110" y1="30" y2="620" stroke="black"/>
+		<text x="75" y="585" font-family="Verdana" font-size="15" fill="black">1m</text>
+		<text x="75" y="345" font-family="Verdana" font-size="15" fill="black">5m</text>
+		<text x="72" y="50" font-family="Verdana" font-size="15" fill="black">10m</text>
+		<rect class="infoblank" x ="1630" y="60"/>
+		<text x="1680" y="90" font-family="Verdana" font-size="16" fill="white">Click on names</text>
+		<text x="1685" y="115" font-family="Verdana" font-size="16" fill="white">for more info</text>
+		<text x="1700" y="175" font-family="Verdana" font-size="15" fill="white"><a href="#chartF">Followers</a></text>
+		<text x="1690" y="235" font-family="Verdana" font-size="15" fill="white"><a href="#chartWT">Watch Time</a></text>
+		<text x="1685" y="295" font-family="Verdana" font-size="15" fill="white"><a href="#chartST">Stream Time</a></text>
+		<text x="1685" y="355" font-family="Verdana" font-size="15" fill="white"><a href="#chartPV">Peak Viewers</a></text>
+		<text x="1675" y="415" font-family="Verdana" font-size="15" fill="white"><a href="#chartAV">Average Viewers</a></text>
+		
+</svg>
+
+	<svg id="chartWT" class= "charts" width ="2000" height="700">
+		<rect id="showData10" class="bar" x ="150" y="360" width="50" height="240"/>
+		<text x="125" y="625" font-family="Verdana" font-size="15" fill="black"><a href="#id10">Dr.Disrespect</a></text>
+		<rect id="showData9" class="bar" x ="300" y="310" width="50" height="290"/>
+		<text x="280" y="625" font-family="Verdana" font-size="15" fill="black"><a href="#id09">Riot Games</a></text>
+		<rect id="showData8" class="bar" x ="450" y="495" width="50" height="105"/>
+		<text x="445" y="625" font-family="Verdana" font-size="15" fill="black"><a href="#id08">dakotaz</a></text>
+		<rect id="showData7" class="bar" x ="600" y="270" width="50" height="330"/>
+		<text x="575" y="625" font-family="Verdana" font-size="15" fill="black"><a href="#id07">TimTheTatman</a></text>
+		<rect id="showData6" class="bar" x ="750" y="40" width="50" height="560"/>
+		<text x="735" y="625" font-family="Verdana" font-size="15" fill="black"><a href="#id06">summit1g</a></text>
+		<rect id="showData5" class="bar" x ="900" y="500" width="50" height="100"/>
+		<text x="885" y="625" font-family="Verdana" font-size="15" fill="black"><a href="#id05">pokimane</a></text>
+		<rect id="showData4" class="bar" x ="1050" y="315" width="50" height="285"/>
+		<text x="1049" y="625" font-family="Verdana" font-size="15" fill="black"><a href="#id04">Rubius</a></text>
+		<rect id="showData3" class="bar" x ="1200" y="430" width="50" height="170"/>
+		<text x="1205" y="625" font-family="Verdana" font-size="15" fill="black"><a href="#id03">Myth</a></text>
+		<rect id="showData2" class="bar" x ="1350" y="520" width="50" height="80"/>
+		<text x="1347" y="625" font-family="Verdana" font-size="15" fill="black"><a href="#id02">Shroud</a></text>
+		<rect id="showData" class="bar" x ="1500" y="240" width="50" height="360"/>
+		<text x="1506" y="625" font-family="Verdana" font-size="15" fill="black"><a href="#id01">Tfue</a></text>
+		<line x1="100" x2="1600" y1="605" y2="605" stroke="black"/>
+		<line x1="110" x2="110" y1="30" y2="620" stroke="black"/>
+		<text x="75" y="500" font-family="Verdana" font-size="15" fill="black">1b</text>
+		<text x="75" y="350" font-family="Verdana" font-size="15" fill="black">2b</text>
+		<text x="75" y="200" font-family="Verdana" font-size="15" fill="black">4b</text>
+		<text x="75" y="50" font-family="Verdana" font-size="15" fill="black">6b</text>
+		<rect class="infoblank" x ="1630" y="60"/>
+		<text x="1680" y="90" font-family="Verdana" font-size="16" fill="white">Click on names</text>
+		<text x="1685" y="115" font-family="Verdana" font-size="16" fill="white">for more info</text>
+		<text x="1685" y="115" font-family="Verdana" font-size="16" fill="white">for more info</text>
+		<text x="1700" y="175" font-family="Verdana" font-size="15" fill="white"><a href="#chartF">Followers</a></text>
+		<text x="1690" y="235" font-family="Verdana" font-size="15" fill="white"><a href="#chartWT">Watch Time</a></text>
+		<text x="1685" y="295" font-family="Verdana" font-size="15" fill="white"><a href="#chartST">Stream Time</a></text>
+		<text x="1685" y="355" font-family="Verdana" font-size="15" fill="white"><a href="#chartPV">Peak Viewers</a></text>
+		<text x="1675" y="415" font-family="Verdana" font-size="15" fill="white"><a href="#chartAV">Average Viewers</a></text>
+		
+	</svg>
+
+	<svg id="chartST" class= "charts" width ="2000" height="700">
+		<rect id="showData10" class="bar" x ="150" y="470" width="50" height="130"/>
+		<text x="125" y="625" font-family="Verdana" font-size="15" fill="black"><a href="#id10">Dr.Disrespect</a></text>
+		<rect id="showData9" class="bar" x ="300" y="450" width="50" height="150"/>
+		<text x="280" y="625" font-family="Verdana" font-size="15" fill="black"><a href="#id09">Riot Games</a></text>
+		<rect id="showData8" class="bar" x ="450" y="280" width="50" height="320"/>
+		<text x="445" y="625" font-family="Verdana" font-size="15" fill="black"><a href="#id08">dakotaz</a></text>
+		<rect id="showData7" class="bar" x ="600" y="360" width="50" height="240"/>
+		<text x="575" y="625" font-family="Verdana" font-size="15" fill="black"><a href="#id07">TimTheTatman</a></text>
+		<rect id="showData6" class="bar" x ="750" y="70" width="50" height="530"/>
+		<text x="735" y="625" font-family="Verdana" font-size="15" fill="black"><a href="#id06">summit1g</a></text>
+		<rect id="showData5" class="bar" x ="900" y="520" width="50" height="80"/>
+		<text x="885" y="625" font-family="Verdana" font-size="15" fill="black"><a href="#id05">pokimane</a></text>
+		<rect id="showData4" class="bar" x ="1050" y="510" width="50" height="90"/>
+		<text x="1049" y="625" font-family="Verdana" font-size="15" fill="black"><a href="#id04">Rubius</a></text>
+		<rect id="showData3" class="bar" x ="1200" y="280" width="50" height="320"/>
+		<text x="1205" y="625" font-family="Verdana" font-size="15" fill="black"><a href="#id03">Myth</a></text>
+		<rect id="showData2" class="bar" x ="1350" y="570" width="50" height="30"/>
+		<text x="1347" y="625" font-family="Verdana" font-size="15" fill="black"><a href="#id02">Shroud</a></text>
+		<rect id="showData" class="bar" x ="1500" y="300" width="50" height="300"/>
+		<text x="1506" y="625" font-family="Verdana" font-size="15" fill="black"><a href="#id01">Tfue</a></text>
+		<line x1="100" x2="1600" y1="605" y2="605" stroke="black"/>
+		<line x1="110" x2="110" y1="30" y2="620" stroke="black"/>
+		<text x="70" y="550" font-family="Verdana" font-size="15" fill="black">50k</text>
+		<text x="68" y="400" font-family="Verdana" font-size="15" fill="black">100k</text>
+		<text x="68" y="250" font-family="Verdana" font-size="15" fill="black">150k</text>
+		<text x="68" y="100" font-family="Verdana" font-size="15" fill="black">200k</text>
+		<rect class="infoblank" x ="1630" y="60"/>
+		<text x="1680" y="90" font-family="Verdana" font-size="16" fill="white">Click on names</text>
+		<text x="1685" y="115" font-family="Verdana" font-size="16" fill="white">for more info</text>
+		<text x="1700" y="175" font-family="Verdana" font-size="15" fill="white"><a href="#chartF">Followers</a></text>
+		<text x="1690" y="235" font-family="Verdana" font-size="15" fill="white"><a href="#chartWT">Watch Time</a></text>
+		<text x="1685" y="295" font-family="Verdana" font-size="15" fill="white"><a href="#chartST">Stream Time</a></text>
+		<text x="1685" y="355" font-family="Verdana" font-size="15" fill="white"><a href="#chartPV">Peak Viewers</a></text>
+		<text x="1675" y="415" font-family="Verdana" font-size="15" fill="white"><a href="#chartAV">Average Viewers</a></text>
+		
+	</svg>
+
+	<svg id="chartPV" class= "charts" width ="2000" height="700">
+		<rect id="showData10" class="bar" x ="150" y="545" width="50" height="55"/>
+		<text x="125" y="625" font-family="Verdana" font-size="15" fill="black"><a href="#id10">Dr.Disrespect</a></text>
+		<rect id="showData9" class="bar" x ="300" y="60" width="50" height="540"/>
+		<text x="280" y="625" font-family="Verdana" font-size="15" fill="black"><a href="#id09">Riot Games</a></text>
+		<rect id="showData8" class="bar" x ="450" y="575" width="50" height="25"/>
+		<text x="445" y="625" font-family="Verdana" font-size="15" fill="black"><a href="#id08">dakotaz</a></text>
+		<rect id="showData7" class="bar" x ="600" y="480" width="50" height="120"/>
+		<text x="575" y="625" font-family="Verdana" font-size="15" fill="black"><a href="#id07">TimTheTatman</a></text>
+		<rect id="showData6" class="bar" x ="750" y="340" width="50" height="260"/>
+		<text x="735" y="625" font-family="Verdana" font-size="15" fill="black"><a href="#id06">summit1g</a></text>
+		<rect id="showData5" class="bar" x ="900" y="525" width="50" height="75"/>
+		<text x="885" y="625" font-family="Verdana" font-size="15" fill="black"><a href="#id05">pokimane</a></text>
+		<rect id="showData4" class="bar" x ="1050" y="420" width="50" height="180"/>
+		<text x="1049" y="625" font-family="Verdana" font-size="15" fill="black"><a href="#id04">Rubius</a></text>
+		<rect id="showData3" class="bar" x ="1200" y="500" width="50" height="100"/>
+		<text x="1205" y="625" font-family="Verdana" font-size="15" fill="black"><a href="#id03">Myth</a></text>
+		<rect id="showData2" class="bar" x ="1350" y="190" width="50" height="410"/>
+		<text x="1347" y="625" font-family="Verdana" font-size="15" fill="black"><a href="#id02">Shroud</a></text>
+		<rect id="showData" class="bar" x ="1500" y="380" width="50" height="220"/>
+		<text x="1506" y="625" font-family="Verdana" font-size="15" fill="black"><a href="#id01">Tfue</a></text>
+		<line x1="100" x2="1600" y1="605" y2="605" stroke="black"/>
+		<line x1="110" x2="110" y1="30" y2="620" stroke="black"/>
+		<text x="70" y="550" font-family="Verdana" font-size="15" fill="black">100k</text>
+		<text x="68" y="400" font-family="Verdana" font-size="15" fill="black">250k</text>
+		<text x="68" y="250" font-family="Verdana" font-size="15" fill="black">450k</text>
+		<text x="68" y="100" font-family="Verdana" font-size="15" fill="black">600k</text>
+		<rect class="infoblank" x ="1630" y="60"/>
+		<text x="1680" y="90" font-family="Verdana" font-size="16" fill="white">Click on names</text>
+		<text x="1685" y="115" font-family="Verdana" font-size="16" fill="white">for more info</text>
+		<text x="1700" y="175" font-family="Verdana" font-size="15" fill="white"><a href="#chartF">Followers</a></text>
+		<text x="1690" y="235" font-family="Verdana" font-size="15" fill="white"><a href="#chartWT">Watch Time</a></text>
+		<text x="1685" y="295" font-family="Verdana" font-size="15" fill="white"><a href="#chartST">Stream Time</a></text>
+		<text x="1685" y="355" font-family="Verdana" font-size="15" fill="white"><a href="#chartPV">Peak Viewers</a></text>
+		<text x="1675" y="415" font-family="Verdana" font-size="15" fill="white"><a href="#chartAV">Average Viewers</a></text>
+		
+	</svg>
+
+	<svg id="chartAV" class= "charts" width ="2000" height="700">
+		<rect id="showData10" class="bar" x ="150" y="345" width="50" height="255"/>
+		<text x="125" y="625" font-family="Verdana" font-size="15" fill="black"><a href="#id10">Dr.Disrespect</a></text>
+		<rect id="showData9" class="bar" x ="300" y="380" width="50" height="220"/>
+		<text x="280" y="625" font-family="Verdana" font-size="15" fill="black"><a href="#id09">Riot Games</a></text>
+		<rect id="showData8" class="bar" x ="450" y="545" width="50" height="55"/>
+		<text x="445" y="625" font-family="Verdana" font-size="15" fill="black"><a href="#id08">dakotaz</a></text>
+		<rect id="showData7" class="bar" x ="600" y="325" width="50" height="275"/>
+		<text x="575" y="625" font-family="Verdana" font-size="15" fill="black"><a href="#id07">TimTheTatman</a></text>
+		<rect id="showData6" class="bar" x ="750" y="328" width="50" height="273"/>
+		<text x="735" y="625" font-family="Verdana" font-size="15" fill="black"><a href="#id06">summit1g</a></text>
+		<rect id="showData5" class="bar" x ="900" y="450" width="50" height="150"/>
+		<text x="885" y="625" font-family="Verdana" font-size="15" fill="black"><a href="#id05">pokimane</a></text>
+		<rect id="showData4" class="bar" x ="1050" y="90" width="50" height="510"/>
+		<text x="1049" y="625" font-family="Verdana" font-size="15" fill="black"><a href="#id04">Rubius</a></text>
+		<rect id="showData3" class="bar" x ="1200" y="530" width="50" height="70"/>
+		<text x="1205" y="625" font-family="Verdana" font-size="15" fill="black"><a href="#id03">Myth</a></text>
+		<rect id="showData2" class="bar" x ="1350" y="250" width="50" height="350"/>
+		<text x="1347" y="625" font-family="Verdana" font-size="15" fill="black"><a href="#id02">Shroud</a></text>
+		<rect id="showData" class="bar" x ="1500" y="252" width="50" height="348"/>
+		<text x="1506" y="625" font-family="Verdana" font-size="15" fill="black"><a href="#id01">Tfue</a></text>
+		<line x1="100" x2="1600" y1="605" y2="605" stroke="black"/>
+		<line x1="110" x2="110" y1="30" y2="620" stroke="black"/>
+		<text x="70" y="550" font-family="Verdana" font-size="15" fill="black">10k</text>
+		<text x="70" y="400" font-family="Verdana" font-size="15" fill="black">20k</text>
+		<text x="70" y="250" font-family="Verdana" font-size="15" fill="black">30k</text>
+		<text x="70" y="100" font-family="Verdana" font-size="15" fill="black">40k</text>
+		<rect class="infoblank" x ="1630" y="60"/>
+		<text x="1680" y="90" font-family="Verdana" font-size="16" fill="white">Click on names</text>
+		<text x="1685" y="115" font-family="Verdana" font-size="16" fill="white">for more info</text>
+		<text x="1700" y="175" font-family="Verdana" font-size="15" fill="white"><a href="#chartF">Followers</a></text>
+		<text x="1690" y="235" font-family="Verdana" font-size="15" fill="white"><a href="#chartWT">Watch Time</a></text>
+		<text x="1685" y="295" font-family="Verdana" font-size="15" fill="white"><a href="#chartST">Stream Time</a></text>
+		<text x="1685" y="355" font-family="Verdana" font-size="15" fill="white"><a href="#chartPV">Peak Viewers</a></text>
+		<text x="1675" y="415" font-family="Verdana" font-size="15" fill="white"><a href="#chartAV">Average Viewers</a></text>
+		
+	</svg>
+
+<script src="js/apps.js"></script>
+
+</body>
+
+
+</html>
+
+
+
